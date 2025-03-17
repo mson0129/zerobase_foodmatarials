@@ -26,6 +26,7 @@
 
 # local env files
 /src/.env*.local
+/src/.env
 
 # vercel
 /src/.vercel
@@ -33,3 +34,6 @@
 # typescript
 /src/*.tsbuildinfo
 /src/next-env.d.ts
+
+# firebase-functions
+/src/functions/venv
